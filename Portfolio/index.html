@@ -1,0 +1,102 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="style.css">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;400;500;700;800;900&display=swap" rel="stylesheet">
+
+    <title>Simon Schroeder</title>
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+
+<body>
+<!-- Foto de perfil fondo -->    
+<!--Barra de navegación-->
+  
+    <section class="backgroundProfile">
+        <nav>
+        <div class="navBar" id="navLinks">
+            <i class="fa fa-times" onclick="hideMenu()"></i>
+
+            <ul>
+                <li><a href="">HOME</a></li>
+                <li><a href="">PROJECTS</a></li>
+                <li><a href="">ABOUT ME</a></li>
+                <li><a href="">HIRE ME</a></li>
+            </ul>
+        </div>
+        <i class="fa fa-bars" onclick="showMenu()"></i>
+    </nav>
+</section>
+
+<!-- Presentación -->
+    <div class="text-box">
+        <h3>Hello</h3>
+        <h1>Im Simon Schroeder</h1>
+        <p class="pIntro">Future front end developer <br>
+            Working with HTML, CSS and JavaScript
+        </p>
+        <p class="projectLink">Projects</p>
+    </div>
+
+<!-- Proyectos -->
+    <section class="projects">
+        <div class="row">
+            <div class="projectInfo">
+                <h3>Project 1</h3>
+                <p>Proyecto sobre tienda online con posibilidad e compra para tu vieja, carrito de compras, conversión de precios
+                a dolar, reales, euros adssssss ads asd fffffffff asdas fgggasd asdasd asdasd asd asd asssss s s ds
+                </p>
+            </div>
+            <div class="projectInfo">
+                <h3>Project 2</h3>
+                <p>Proyecto sobre pagina web de peliculas, filtros de peliculas, categorias, buscador
+                    login, Lorem ipsum dolor sit amet consectetur adipisicing elit. Vel, aperiam.
+                </p>
+            </div>
+            <div class="projectInfo">
+                
+                <h3>Project 3</h3>
+                <p>Proyecto para Argentina programa, consiste en portfolio con posibilidad de edición, login de usuarios
+                    Lorem ipsum dolor, sit amet consectetur adipisicing elit. Magni molestiae dolore, libero soluta veritatis iusto!
+                </p>
+                <img src="imagenes/aplogoresized.png" alt="">
+            </div>
+        </div>
+    </section>
+
+<!-- About Me -->
+    <section class="aboutMe">
+
+        <div class="row">
+            <div class="aboutCol">
+                <h1>About Me</h1>
+                <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Expedita consequuntur tempora 
+                    repudiandae numquam cum possimus amet fugit, impedit animi. Delectus animi 
+                    minima perferendis ab similique alias! Et quidem tenetur minus.</p>
+            </div>
+                
+            <div class="aboutCol">
+                <img src="imagenes/about me.jpg" alt="Me and my cats">
+            </div>
+        </div>
+    </section>
+
+
+<script>
+    var navLinks = document.getElementById("navLinks")
+    function showMenu(){
+        navLinks.style.right = "0";
+    }
+    function hideMenu(){
+        navLinks.style.right = "-200px";
+    }
+
+</script>
+
+</body>
+</html>
