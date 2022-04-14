@@ -18,8 +18,11 @@
 nav {
     display: flex;
     float: right;
-    padding: 2% 8%;
+    margin-right: 100px;
+    padding: 2% 3%;
 }
+
+
 
 .navBar {
     flex: 1;
@@ -31,6 +34,14 @@ nav {
     padding: 8px 12px;
     position: relative;
 }
+
+/* redes */
+.socialNetworks {
+    float: left;
+    padding-right: 990px;
+}
+
+
 /* Color de las letras barra navegación */
 .navBar ul li a {
     color: rgb(46, 46, 46);
@@ -61,6 +72,7 @@ nav {
     position: absolute;
     top: 40%;
     margin-left: 5%;
+    line-height: 1.5;
 }
 
 h3 {
@@ -175,6 +187,10 @@ nav .fa {
     transition: 0.5s;
 }
 
+.imgProject {
+    max-width: 400px;
+    border-radius: 10px;
+}
 .projectInfo:hover {
     box-shadow: 0 0 20px 0px rgba(0,0,0,0.2);
 }
@@ -209,3 +225,4 @@ nav .fa {
 .aboutCol p{
     padding: 15px 0 25px;
 }
+
